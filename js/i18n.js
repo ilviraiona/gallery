@@ -73,7 +73,7 @@ const i18n = {
       meta_material: "Material",
       meta_price: "Price",
       about_title: "Ilvira Nasreddinova",
-      about_bio: "Ilvira was born in\u00A01981 in\u00A0Uzbekistan. In\u00A02002, she graduated from the Republican Art College named after A.\u00A0A.\u00A0Benkov in\u00A0Tashkent. She currently lives and works between Krasnodar and Tbilisi.",
+      about_bio: "Ilvira was born in\u00A01981 in\u00A0Uzbekistan. In\u00A02002, she graduated from the Republican Art College named after A.\u00A0A.\u00A0Benkov in\u00A0Tashkent. She currently lives and works in Krasnodar.",
       about_exhibitions_title: "Exhibitions",
       about_exhibitions_list: "2026 — Exhibition a—s—t—r—a OPEN vol.8, Moscow, Russia\n2024 — “not your business”, group exhibition, Tbilisi, Georgia\n2024 — “body.tenderness”, group exhibition, Tbilisi, Georgia\n2023 — 6th International Watercolor Festival, Tbilisi, Georgia",
       back_to_gallery: "Home",
