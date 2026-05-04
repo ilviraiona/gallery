@@ -1,0 +1,158 @@
+[
+  {
+    "id": "queen-of-snakes",
+    "title": { "ru": "Чем надлежит кормить Царицу-змею?", "en": "What Should One\u00A0Feed the\u00A0Queen of\u00A0Snakes?" },
+    "size": { 
+      "ru": "50\u00A0×\u00A070\u00A0×\u00A02\u00A0см", 
+      "en": "50\u00A0×\u00A070\u00A0×\u00A02\u00A0cm (19.7\u00A0×\u00A027.6\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "65\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/queen-of-snakes.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "lost-in-between",
+    "title": { "ru": "Застряла\u00A0между", "en": "Stuck\u00A0Between" },
+    "size": {
+      "ru": "80\u00A0×\u00A060\u00A0×\u00A02\u00A0см",
+      "en": "80\u00A0×\u00A060\u00A0×\u00A02\u00A0cm (31.5\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)"
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "65\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/lost-in-between.webp",
+    "description": { "ru": "2026", "en": "2026" }
+  },
+  {
+    "id": "who-will-share-the-impossible",
+    "title": { "ru": "Кто разделит со\u00A0мной невозможное?", "en": "Who Will Share the\u00A0Impossible with\u00A0Me?" },
+    "size": { 
+      "ru": "40\u00A0×\u00A050\u00A0×\u00A01.5\u00A0см", 
+      "en": "40\u00A0×\u00A050\u00A0×\u00A01.5\u00A0cm (15.7\u00A0×\u00A019.7\u00A0×\u00A00.6\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "35\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/who-will-share-the-impossible.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "will-the-river-follow-me",
+    "title": { "ru": "Пойдёт\u00A0ли река вслед за\u00A0мной?", "en": "Will the\u00A0River Follow Me?" },
+    "size": { 
+      "ru": "50\u00A0×\u00A060\u00A0×\u00A02\u00A0см", 
+      "en": "50\u00A0×\u00A060\u00A0×\u00A02\u00A0cm (19.7\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "55\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/will-the-river-follow-me.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "why-am-i-standing-in-head",
+    "title": { "ru": "Почему я\u00A0стою в\u00A0чужой голове?", "en": "Why Am\u00A0I Standing in\u00A0Someone Else’s Head?" },
+    "size": { 
+      "ru": "70\u00A0×\u00A060\u00A0×\u00A02\u00A0см", 
+      "en": "70\u00A0×\u00A060\u00A0×\u00A02\u00A0cm (27.6\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "65\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/why-am-i-standing-in-head.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "did-i-wake-up",
+    "title": { "ru": "Я\u00A0проснулась?", "en": "Did I\u00A0Wake Up?" },
+    "size": {
+      "ru": "60\u00A0×\u00A090\u00A0×\u00A02\u00A0см",
+      "en": "60\u00A0×\u00A090\u00A0×\u00A02\u00A0cm (23.6\u00A0×\u00A035.4\u00A0×\u00A00.8\u00A0in)"
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "65\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/did-i-wake-up.webp",
+    "description": { "ru": "2026", "en": "2026" }
+  },
+  {
+    "id": "do-you-want-more",
+    "title": { "ru": "Хочешь ещё?", "en": "Do You\u00A0Want More?" },
+    "size": { 
+      "ru": "25\u00A0×\u00A025\u00A0×\u00A02\u00A0см", 
+      "en": "25\u00A0×\u00A025\u00A0×\u00A02\u00A0cm (9.8\u00A0×\u00A09.8\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "20\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/do-you-want-more.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "im-in-my-fort",
+    "title": { "ru": "Я в\u00A0домике", "en": "I’m in\u00A0My Fort" },
+    "size": { 
+      "ru": "50\u00A0×\u00A060\u00A0×\u00A02\u00A0см", 
+      "en": "50\u00A0×\u00A060\u00A0×\u00A02\u00A0cm (19.7\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "45\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/im-in-my-fort.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "happy-nina",
+    "title": { "ru": "Дом счастливой Нины", "en": "The House of\u00A0Happy Nina" },
+    "size": { 
+      "ru": "60\u00A0×\u00A050\u00A0×\u00A02\u00A0см", 
+      "en": "60\u00A0×\u00A050\u00A0×\u00A02\u00A0cm (19.7\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "45\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/happy-nina.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "venuses",
+    "title": { "ru": "Венеры", "en": "Venuses (Triptych)" },
+    "size": { 
+      "ru": "каждая 24\u00A0×\u00A018\u00A0см", 
+      "en": "each 24\u00A0×\u00A018\u00A0cm (9.4\u00A0×\u00A07.1\u00A0in)" 
+    },
+    "material": { "ru": "холст на\u00A0картоне, смешанная техника", "en": "oil on\u00A0canvas on\u00A0cardboard, mixed media" },
+    "price": "25\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/Venuses_Triptych.jpg",
+    "description": { "ru": "Тбилиси, 2024", "en": "Tbilisi, 2024" }
+  },
+  {
+    "id": "peach-orchard",
+    "title": { "ru": "Персиковый сад", "en": "Peach Orchard" },
+    "size": { 
+      "ru": "50\u00A0×\u00A060\u00A0см", 
+      "en": "50\u00A0×\u00A060\u00A0cm (19.7\u00A0×\u00A023.6\u00A0in)" 
+    },
+    "material": { "ru": "холст на\u00A0картоне, масло", "en": "oil on\u00A0canvas on\u00A0cardboard" },
+    "price": "45\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/peach-orchard.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  },
+  {
+    "id": "cloud-look-like",
+    "title": { "ru": "Как выглядит облако наяву?", "en": "What Does a\u00A0Cloud Look Like in\u00A0Reality?" },
+    "size": { 
+      "ru": "60\u00A0×\u00A050\u00A0×\u00A02\u00A0см", 
+      "en": "60\u00A0×\u00A050\u00A0×\u00A02\u00A0cm (23.6\u00A0×\u00A019.7\u00A0×\u00A00.8\u00A0in)" 
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "55\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/cloud-look-like.webp",
+    "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
+  }
+]
