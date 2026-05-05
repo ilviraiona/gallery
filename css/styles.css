@@ -78,6 +78,18 @@ a:hover {
   opacity: 0.7;
 }
 
+/* Content links (non-navigation) */
+.statement-content a {
+  color: #3F52C8;
+  opacity: 1;
+  transition: color var(--transition-fast);
+}
+
+.statement-content a:hover {
+  color: #5367E2;
+  opacity: 1;
+}
+
 ul {
   list-style: none;
 }
