@@ -10,6 +10,9 @@
   --transition-fast: 150ms ease-out;
   --transition-normal: 250ms ease-out;
   
+  --color-link: #3F52C8;
+  --color-link-hover: #5367E2;
+  
   --sidebar-width: 23.6%;
   --header-height: 64px;
 
@@ -45,6 +48,10 @@
   --color-status-available: #ffffff;
   --color-bg-rgb: 15, 15, 15;
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+  /* Links on dark background */
+  --color-link: #808FEC;
+  --color-link-hover: #8C9BF7;
 }
 
 /* Reset & Base */
@@ -79,14 +86,14 @@ a:hover {
 }
 
 /* Content links (non-navigation) */
-.statement-content a {
-  color: #3F52C8;
+.main-content a:not(.btn-primary):not(.nav-link):not(.logo) {
+  color: var(--color-link);
   opacity: 1;
   transition: color var(--transition-fast);
 }
 
-.statement-content a:hover {
-  color: #5367E2;
+.main-content a:not(.btn-primary):not(.nav-link):not(.logo):hover {
+  color: var(--color-link-hover);
   opacity: 1;
 }
 
@@ -452,7 +459,7 @@ h2 {
 
 .back-link {
   font-size: 14px;
-  color: var(--color-text);
+  color: var(--color-link);
   margin-bottom: 40px;
   display: inline-block;
   text-decoration: none;
@@ -814,7 +821,7 @@ h2 {
 
 .contact-item a, .contact-item span:not(.caption) {
   font-weight: 400;
-  color: var(--color-text);
+  color: inherit;
   text-decoration: none;
   display: block;
 }

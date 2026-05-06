@@ -71,7 +71,7 @@ const App = {
         <button class="lightbox-btn" id="lightbox-close"><img src="assets/icons/close icon.svg" alt="Close"></button>
       </div>
       <div class="lightbox-content" id="lightbox-content">
-        <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        <img src="" alt="" class="lightbox-img" id="lightbox-img" decoding="async">
       </div>
     `;
     document.body.appendChild(lb);
@@ -273,10 +273,17 @@ const App = {
 
     grid.innerHTML = this.works.map(work => {
       const sizeStr = work.size[lang].split(' (')[0];
+      const thumbSrc = `assets/thumbnails/thumbnail-${work.id}.webp`;
       return `
         <div class="work-card fade-in" onclick="location.href='work.html?id=${work.id}'">
           <div class="work-image-wrapper">
-            <img src="${work.image}" alt="${work.title[lang]}" loading="lazy">
+            <img
+              src="${thumbSrc}"
+              alt="${work.title[lang]}"
+              loading="lazy"
+              decoding="async"
+              onerror="this.onerror=null;this.src='${work.image}'"
+            >
           </div>
           <div class="work-info">
             <div class="work-title">${work.title[lang]}</div>
@@ -327,7 +334,7 @@ const App = {
         
         <div class="work-detail-grid">
           <div class="work-image">
-            <img src="${work.image}" alt="${work.title[lang]}" id="lightbox-trigger">
+            <img src="${work.image}" alt="${work.title[lang]}" id="lightbox-trigger" decoding="async">
           </div>
           
           <div class="work-sidebar-info">
