@@ -275,7 +275,7 @@ const App = {
       const sizeStr = work.size[lang].split(' (')[0];
       const thumbSrc = `assets/thumbnails/thumbnail-${work.id}.webp`;
       return `
-        <div class="work-card fade-in" onclick="location.href='work-${work.id}.html'">
+        <div class="work-card fade-in" onclick="location.href='work.html?id=${work.id}'">
           <div class="work-image-wrapper">
             <img
               src="${thumbSrc}"
@@ -296,12 +296,7 @@ const App = {
 
   async loadWorkDetail() {
     const params = new URLSearchParams(window.location.search);
-    const idFromDataset = document.body && document.body.dataset ? document.body.dataset.workId : null;
-    const idFromQuery = params.get('id');
-    const fileName = window.location.pathname.split('/').pop() || '';
-    const m = fileName.match(/^work-(.+)\\.html$/);
-    const idFromFileName = m ? m[1] : null;
-    const id = idFromDataset || idFromFileName || idFromQuery;
+    const id = params.get('id');
     
     if (!this.works.length) {
       const response = await fetch('data/works.json');
@@ -380,12 +375,14 @@ const App = {
     // Event Listeners for Nav
     if (prevWork) {
       document.getElementById('prev-work').onclick = () => {
-        window.location.href = `work-${prevWork.id}.html`;
+        history.pushState(null, '', `work.html?id=${prevWork.id}`);
+        this.renderWorkDetail(prevWork);
       };
     }
     if (nextWork) {
       document.getElementById('next-work').onclick = () => {
-        window.location.href = `work-${nextWork.id}.html`;
+        history.pushState(null, '', `work.html?id=${nextWork.id}`);
+        this.renderWorkDetail(nextWork);
       };
     }
 
