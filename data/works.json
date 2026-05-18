@@ -117,6 +117,19 @@
     "description": { "ru": "Тбилиси, 2025", "en": "Tbilisi, 2025" }
   },
   {
+    "id": "not-so-different",
+    "title": { "ru": "Не\u00A0такие\u00A0уж\u00A0разные", "en": "Not\u00A0So\u00A0Different" },
+    "size": { 
+      "ru": "80\u00A0×\u00A060\u00A0×\u00A02\u00A0см",
+      "en": "80\u00A0×\u00A060\u00A0×\u00A02\u00A0cm (31.5\u00A0×\u00A023.6\u00A0×\u00A00.8\u00A0in)"
+    },
+    "material": { "ru": "холст, масло", "en": "oil on\u00A0canvas" },
+    "price": "65\u00A0000\u00A0₽",
+    "status": "available",
+    "image": "assets/images/Not-so-different.webp",
+    "description": { "ru": "Краснодар, 2026", "en": "Krasnodar, 2026" }
+  },
+  {
     "id": "venuses",
     "title": { "ru": "Венеры", "en": "Venuses (Triptych)" },
     "size": { 
