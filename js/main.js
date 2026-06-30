@@ -275,7 +275,7 @@ const App = {
       const sizeStr = work.size[lang].split(' (')[0];
       const thumbSrc = `assets/thumbnails/thumbnail-${work.id}.webp`;
       return `
-        <div class="work-card fade-in" onclick="location.href='work.html?id=${work.id}'">
+        <a class="work-card fade-in" href="work.html?id=${work.id}">
           <div class="work-image-wrapper">
             <img
               src="${thumbSrc}"
@@ -289,7 +289,7 @@ const App = {
             <div class="work-title">${work.title[lang]}</div>
             <div class="work-meta">${sizeStr}, ${work.material[lang]}</div>
           </div>
-        </div>
+        </a>
       `;
     }).join('');
   },
@@ -320,6 +320,11 @@ const App = {
     const workIndex = this.works.findIndex(w => w.id === work.id);
     const prevWork = workIndex > 0 ? this.works[workIndex - 1] : null;
     const nextWork = workIndex < this.works.length - 1 ? this.works[workIndex + 1] : null;
+
+    const canonicalLink = document.getElementById('canonical-link');
+    if (canonicalLink) {
+      canonicalLink.href = `https://ilviran.com/work.html?id=${encodeURIComponent(work.id)}`;
+    }
 
     const tgText = encodeURIComponent(`${window.i18n.t('contact_tg_text')} "${work.title[lang]}"`);
     const tgLink = `https://t.me/Ilviran?text=${tgText}`;
