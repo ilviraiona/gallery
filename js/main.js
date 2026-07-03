@@ -317,6 +317,7 @@ const App = {
     if (!detailContainer) return;
 
     const lang = window.i18n.currentLang;
+    document.title = `${work.title[lang]} | Ilvira Nasreddinova`;
     const workIndex = this.works.findIndex(w => w.id === work.id);
     const prevWork = workIndex > 0 ? this.works[workIndex - 1] : null;
     const nextWork = workIndex < this.works.length - 1 ? this.works[workIndex + 1] : null;
